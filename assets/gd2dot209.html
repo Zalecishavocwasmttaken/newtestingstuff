@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JSDelivr Page</title>
+<script>
+(async function(){
+  const fileUrl="https://cdn.jsdelivr.net/gh/Zalecishavocwasmttaken/newtestingstuff@main/gd2dot209.html";
+  const fileType="html";
+
+  try{
+    if(fileType==="html"){
+      const response=await fetch(fileUrl);
+      if(!response.ok) throw new Error("Could not load HTML: "+response.status);
+      const source=await response.text();
+      document.open();
+      document.write(source);
+      document.close();
+    }else{
+      const script=document.createElement("script");
+      script.src=fileUrl;
+      script.onerror=()=>{document.body.textContent="Could not load the JavaScript file.";};
+      document.head.appendChild(script);
+    }
+  }catch(error){
+    document.body.textContent=error.message||"Could not load the file.";
+  }
+})();
+</script>
+</head>
+<body></body>
+</html>
