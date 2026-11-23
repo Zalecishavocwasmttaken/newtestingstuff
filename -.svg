@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="600" height="240" viewBox="0 0 600 240">
+  <rect width="600" height="240" rx="18" fill="#111"/>
+  <text x="300" y="82" fill="#fff" font-family="Arial, sans-serif"
+        font-size="30" font-weight="bold" text-anchor="middle">Game Paradise</text>
+  <rect id="launchButton" x="175" y="112" width="250" height="62"
+        rx="10" fill="#5865f2" style="cursor:pointer"/>
+  <text x="300" y="151" fill="#fff" font-family="Arial, sans-serif"
+        font-size="19" text-anchor="middle" pointer-events="none">Open Game Paradise</text>
+  <text id="status" x="300" y="207" fill="#aaa" font-family="Arial, sans-serif"
+        font-size="13" text-anchor="middle">Click to launch in a full-size blank tab</text>
+
+  <script><![CDATA[
+    (function () {
+      const APP_URL = "https://cdn.jsdelivr.net/gh/Zalecishavocwasmttaken/newtestingstuff@main/finishedgp.html.encoded.html";
+      const button = document.getElementById("launchButton");
+      const status = document.getElementById("status");
+
+      button.addEventListener("click", async function () {
+        // Open synchronously from the click so popup blockers allow it.
+        const tab = window.open("about:blank", "_blank");
+
+        if (!tab) {
+          status.textContent = "Popup blocked. Allow popups and try again.";
+          return;
+        }
+
+        tab.document.open();
+        tab.document.write(
+          '<!doctype html><html><head><meta charset="utf-8"><title>Loading...</title></head>' +
+          '<body style="margin:0;background:#111;color:white;font:16px Arial;display:grid;place-items:center;height:100vh">' +
+          'Loading Game Paradise...</body></html>'
+        );
+        tab.document.close();
+
+        button.setAttribute("opacity", "0.55");
+        status.textContent = "Loading...";
+
+        try {
+          const response = await fetch(APP_URL, { cache: "no-store" });
+          if (!response.ok) throw new Error("HTTP " + response.status);
+
+          const encodedHTML = await response.text();
+
+          if (tab.closed) return;
+
+          // Write the encoded loader into a top-level tab, not an iframe.
+          tab.document.open();
+          tab.document.write(encodedHTML);
+          tab.document.close();
+
+          status.textContent = "Opened in a new tab.";
+        } catch (error) {
+          if (!tab.closed) {
+            tab.document.open();
+            tab.document.write(
+              '<!doctype html><html><body style="background:#111;color:white;font:16px Arial;padding:30px">' +
+              '<h2>Could not load Game Paradise</h2><p>' +
+              String(error.message).replace(/[&<>"]/g, function (c) {
+                return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];
+              }) +
+              '</p></body></html>'
+            );
+            tab.document.close();
+          }
+          status.textContent = "Load failed. Check the CDN URL.";
+        } finally {
+          button.setAttribute("opacity", "1");
+        }
+      });
+    })();
+  ]]></script>
+</svg>
