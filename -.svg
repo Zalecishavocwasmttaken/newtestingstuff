@@ -13,7 +13,7 @@
 
   <script><![CDATA[
     (function () {
-      const APP_URL = "https://cdn.jsdelivr.net/gh/Zalecishavocwasmttaken/newtestingstuff@main/gpsafefinished.html.encoded.html";
+      const APP_URL = "https://cdn.jsdelivr.net/gh/Zalecishavocwasmttaken/newtestingstuff@main/gpsafe.html";
       const button = document.getElementById("launchButton");
       const status = document.getElementById("status");
 
