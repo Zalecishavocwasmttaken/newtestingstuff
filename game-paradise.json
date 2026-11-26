@@ -1,0 +1,516 @@
+{
+  "name": "Game Paradise",
+  "stash": "game-paradise",
+  "version": "2026.11.26",
+  "updated": "2026-11-26",
+  "schema": {
+    "name": "display name",
+    "url": "game html url (required)",
+    "img": "cover image url",
+    "tags": [
+      "optional",
+      "labels"
+    ],
+    "featured": "true puts it at the top of the stash",
+    "stash": "optional label"
+  },
+  "games": [
+    {
+      "name": "Webblox",
+      "url": "https://cdn.jsdelivr.net/gh/achroma-ubg/svg@main/pages/webblox.html",
+      "img": "https://cdn.jsdelivr.net/gh/achroma-ubg/svg@main/app.svg",
+      "tags": [
+        "roblox-style",
+        "sandbox",
+        "multiplayer"
+      ],
+      "author": "achroma",
+      "featured": true
+    },
+    {
+      "name": "Achroma Games",
+      "url": "https://cdn.jsdelivr.net/gh/achroma-ubg/svg@main/pages/games.html",
+      "img": "https://cdn.jsdelivr.net/gh/achroma-ubg/svg@main/app.svg",
+      "tags": [
+        "hub",
+        "achroma"
+      ],
+      "author": "achroma",
+      "featured": true
+    },
+    {
+      "name": "Retro Bowl",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/33-fix2.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/33.png",
+      "tags": [
+        "popular"
+      ],
+      "featured": true
+    },
+    {
+      "name": "Slope",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/198-fix2.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/198.png",
+      "tags": [
+        "popular"
+      ],
+      "featured": true
+    },
+    {
+      "name": "Minecraft 1.21.4",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/183.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/183.png",
+      "tags": [
+        "popular"
+      ],
+      "featured": true
+    },
+    {
+      "name": "Granny",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/90-fix3.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/90.png",
+      "tags": [
+        "popular"
+      ],
+      "featured": true
+    },
+    {
+      "name": "Five Nights at Freddy's",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/38-fix2.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/38.png",
+      "tags": [
+        "popular"
+      ],
+      "featured": true
+    },
+    {
+      "name": "Five Nights at Freddy's 2",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/39-fix2.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/39.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Five Nights at Freddy's 3",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/40-fix2.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/40.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Five Nights at Freddy's 4",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/41-fix2.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/41.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Baldi's Basics",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/65-fix2.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/65.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Temple Run 2",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/10-fix2.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/10.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Crossy Road",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/24-fix2.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/24.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Jetpack Joyride",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/7-fix3.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/7.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Friday Night Funkin",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/8-fix2.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/8.png",
+      "tags": [
+        "popular"
+      ],
+      "featured": true
+    },
+    {
+      "name": "1v1.LoL",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/58-fix2.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/58.png",
+      "tags": [
+        "popular"
+      ],
+      "featured": true
+    },
+    {
+      "name": "Drift Hunters",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/173-fix2.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/173.png",
+      "tags": [
+        "popular"
+      ],
+      "featured": true
+    },
+    {
+      "name": "Moto X3M",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/96-fix.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/96.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Moto X3M 2",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/97-fix2.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/97.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Moto X3M Spooky",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/99-fix.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/99.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Hill Climb Racing Lite",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/157-fix2.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/157.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Madalin Stunt Cars 2",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/278-fix.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/278.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Escape Road",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/264-fix.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/264.png",
+      "tags": [
+        "popular"
+      ],
+      "featured": true
+    },
+    {
+      "name": "Escape Road 2",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/265-fix4.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/265.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Drift Boss",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/276-fix2.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/276.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "BitLife",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/70-fix2.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/70.png",
+      "tags": [
+        "popular"
+      ],
+      "featured": true
+    },
+    {
+      "name": "Cookie Clicker",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/82-a.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/82.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "2048",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/114-fix2.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/114.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Wordle",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/112-fix3.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/112.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "8 Ball Pool",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/115-fix.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/115.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Basketball Stars",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/272-ff.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/272.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Basketball Frvr",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/28-fix2.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/28.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Soccer Random",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/739-fix2.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/739.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Plants vs Zombies",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/232-fix2.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/232.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Super Mario 63",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/314-fix2.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/314.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Angry Birds",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/63-fix2.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/63.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Cut the Rope",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/85-fix2.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/85.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Raft Wars",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/344-fix2.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/344.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Raft Wars 2",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/345-fix.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/345.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Run 3",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/177-fix.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/177.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "OvO",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/1-fix2.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/1.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Stickman Hook",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/11-fix2.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/11.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Getting Over It with Bennett Foddy",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/557-fix2.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/557.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Paper.io 2",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/102-fix.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/102.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Slither.io",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/461-fix.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/461.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Vex 5",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/50-fix2.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/50.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Vampire Survivors",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/804-fix.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/804.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Death Run 3D",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/211-fix3.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/211.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Space Waves",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/117-fix2.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/117.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Solar Smash",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/118-fix2.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/118.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Chess Classic",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/151-fix2.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/151.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Pac-Man Superfast",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/158-fix2.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/158.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Territorial.io",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/303-fix2.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/303.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Idle Breakout",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/362-fix.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/362.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Geometry Dash Lite (REMAKE)",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/27-fix2.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/27.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Superhot",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/233-fix.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/233.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Basket Random",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/66-fix2.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/66.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Basket Battle",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/25-fix2.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/25.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Rooftop Snipers",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/283-fix2.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/283.png",
+      "tags": [
+        "popular"
+      ]
+    },
+    {
+      "name": "Doodle Jump",
+      "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/470-fix.html",
+      "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/470.png",
+      "tags": [
+        "popular"
+      ]
+    }
+  ]
+}
